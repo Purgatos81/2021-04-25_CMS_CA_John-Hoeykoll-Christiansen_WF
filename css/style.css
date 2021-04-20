@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+    background-color: white;
+    margin: o;
+    padding: 10px;
+}
+
+li {
+    display: inline;
+}
+
+li a:hover {
+    color: grey;
+}
+
+a {
+padding-right: 10px;
+text-decoration: none;
+
+}

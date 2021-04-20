@@ -1,6 +1,6 @@
 
 const ProdResults = document.querySelector(".products");
-const FlowerApi = "http://bluenord.no/wp-json/wc/store";
+const FlowerApi = "http://bluenord.no/wp-json/wc/store/products";
 
 console.log(FlowerApi);
 

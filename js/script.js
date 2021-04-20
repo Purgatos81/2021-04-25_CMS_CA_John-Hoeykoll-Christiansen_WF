@@ -9,9 +9,11 @@ async function getFlowerProducts() {
         const response = await fetch(FlowerApi);
         const jsonres = await response.json();
         console.log(jsonres);
+        ProdResults.innerHTML = "";
+        const Products = jsonres;
 
-         {
-
+        for (let i = 0; i < Products.length; i++) {
+            ProdResults.innerHTML += `<h2>Name: ${Products[i].name}</h2>`
         }
     }
     catch(error) {

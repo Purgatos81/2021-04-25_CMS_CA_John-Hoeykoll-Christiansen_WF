@@ -13,7 +13,10 @@ async function getFlowerProducts() {
         const Products = jsonres;
 
         for (let i = 0; i < Products.length; i++) {
-            ProdResults.innerHTML += `<h2>Name: ${Products[i].name}</h2>`
+            ProdResults.innerHTML += `<img src=${Products[i].images[0].src}>
+            <h2>Name: ${Products[i].name}</h2>
+            <p>Prize: ${Products[i].prices.price}</p>
+            `
         }
     }
     catch(error) {

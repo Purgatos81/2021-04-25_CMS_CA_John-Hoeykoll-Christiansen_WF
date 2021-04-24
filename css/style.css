@@ -22,3 +22,32 @@ padding-right: 10px;
 text-decoration: none;
 
 }
+
+body {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+/*Styles to prodContainer*/
+
+.products {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.prod-header {
+    text-align: center;
+}
+
+
+.prod-img {
+    max-width: 50%;
+}
+
+.add-button {
+    max-width: 100px;
+    color: white;
+    text-align: center;
+    background-color: #394f4c;
+    margin-bottom: 10px;
+}

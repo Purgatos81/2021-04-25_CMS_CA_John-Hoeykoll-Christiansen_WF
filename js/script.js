@@ -14,11 +14,11 @@ async function getFlowerProducts() {
 
         for (let i = 0; i < Products.length; i++) {
             ProdResults.innerHTML += 
-            `<div>
+            `<div class="product">
             <img class="prod-img" src=${Products[i].images[0].src}>
             <h2 class="prod-head"> ${Products[i].name}</h2>
             <p class="prod-p">£ ${Products[i].prices.price}</p>
-            <div class="add-button">Add to cart</div>
+            <div class="add-button">Wiew More</div>
             </div>`
         }
     }

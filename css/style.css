@@ -11,6 +11,12 @@ ul {
 
 li {
     display: inline;
+    padding-left: 10px;
+}
+
+li a:visited {
+    text-decoration: none;
+    color: black;
 }
 
 li a:hover {
@@ -20,12 +26,22 @@ li a:hover {
 a {
 padding-right: 10px;
 text-decoration: none;
+}
 
+
+a:visited {
+    text-decoration: none;
+}
+
+.logo {
+    padding-left: 10px;
+    padding-top: 10px;
 }
 
 body {
     margin-left: 20%;
     margin-right: 20%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /*Styles to prodContainer*/
@@ -54,12 +70,14 @@ body {
 }
 
 .add-button {
-    max-width: 100px;
+    max-width: 120px;
     color: white;
     text-align: center;
     background-color: #394f4c;
     margin-bottom: 10px;
-    padding: 0px 20px;
+    padding: 15px 20px;
     margin-left: 20px;
     margin-bottom: 20px;
+    font-size: 0.875em;
+    font-weight: 600;
 }

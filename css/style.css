@@ -41,7 +41,16 @@ body {
 
 
 .prod-img {
-    max-width: 50%;
+    max-width: 100%;
+    padding: 0px 20px;
+}
+
+.prod-head {
+    padding: 0px 20px;
+}
+
+.prod-p {
+    padding: 0px 20px;
 }
 
 .add-button {

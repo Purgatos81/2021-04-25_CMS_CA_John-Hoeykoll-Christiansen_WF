@@ -87,6 +87,7 @@ main {
     margin-bottom: 20px;
     font-size: 0.875em;
     font-weight: 600;
+    border-radius:  5px;
 }
 
 footer {
